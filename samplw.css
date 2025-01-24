@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+body {
+    background:white;
+}
+
+.header {
+    display:flex;
+    justify-content:space-between;
+}
+.udemy-logo {
+    margin-top:10px;
+    margin-left:10px;
+}
+.searchbar input {
+    background:#f0f0f0;
+    margin-top:10px;
+    padding:10px 25px;
+    border-radius:20px;
+    width:600px;
+    border-color:#7600bc;
+}
+h5 {
+    margin-top:20px;
+}
+.icon-section  {
+    display:flex;
+    justify-content:space-between;
+    gap:35px;
+    display: flex;
+    margin-top: 20px;
+}
+.account-details h5 {
+    margin-top:12px;
+    margin-right:25px;
+    font-size:20px;
+    width:35px;
+    height:35px;
+    border:1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    color:white;
+    background:black;
+}
+
+.horizontal hr{
+    margin-top: 10px;
+}
+
+.category ol{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    text-align: center;
+    font-size: 13px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.greeting{
+    display: flex;
+    margin-left: 120px;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.greeting .greeting-sign{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greeting .greeting-description p u{
+    color: #7600bc;
+    cursor: pointer;
+}
+
+.course-layout{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.course-layout .course-grid{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto;
+}
+
+.popular{
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+.popular .popular-course{
+    border: 1px solid black;
+    padding: 30px;
+    gap: 30px;
+    display: flex;
+}
+
+.popular .popular-course .top-course-details .rupees{
+    margin-top: 220px;
+}
+
+.footer{
+    margin-top: 20px;
+    text-align: center;
+}
